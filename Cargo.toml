@@ -13,5 +13,5 @@ serde_json = "1"
 thiserror = "2"
 uuid = { version = "1", features = ["v4"] }
 time = { version = "0.3", features = ["formatting"] }
-rusqlite = { version = "0.38", features = ["bundled"] }
+rusqlite = { version = "0.41.1", features = ["bundled"] }
 clap = { version = "4", features = ["derive"] }
