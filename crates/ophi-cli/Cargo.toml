@@ -1,0 +1,19 @@
+[package]
+name = "ophi-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "JSON CLI for OpenPhilosophy"
+
+[[bin]]
+name = "ophi"
+path = "src/main.rs"
+
+[dependencies]
+ophi-core = { path = "../ophi-core" }
+clap.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+
+[dev-dependencies]
+tempfile = "3"
