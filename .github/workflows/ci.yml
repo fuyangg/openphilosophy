@@ -16,6 +16,7 @@ jobs:
       - run: cargo test --workspace --locked
       - run: cargo build --bin ophi --locked
       - run: PATH="$PWD/target/debug:$PATH" python3 examples/debugging/demo.py
+      - run: PATH="$PWD/target/debug:$PATH" python3 examples/mathematics/casson_invariant.py
   audit:
     runs-on: ubuntu-latest
     steps:

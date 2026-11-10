@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">OpenPhilosophy</title>
+  <desc id="desc">Keep the reasoning. Keep the record. Local-first exploration history, connecting attempts, discoveries, and evidence.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101d27"/><stop offset="1" stop-color="#183b40"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#bce5dc" stroke-opacity=".05"/></pattern>
+  </defs>
+  <rect width="1200" height="360" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="20" fill="url(#grid)"/>
+  <circle cx="1100" cy="45" r="180" fill="#86efac" opacity=".035"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <rect x="48" y="40" width="38" height="38" rx="10" fill="#b0eed0"/>
+    <path d="M59 51h16v16H59z M63 55h8v8h-8z" fill="none" stroke="#15352f" stroke-width="2"/>
+    <text x="100" y="66" fill="#d4f1e3" font-size="24" font-weight="650">OpenPhilosophy</text>
+    <text x="48" y="142" fill="#f1f6f2" font-size="42" font-weight="700">Keep the reasoning.</text>
+    <text x="48" y="195" fill="#b0eed0" font-size="42" font-weight="700">Keep the record.</text>
+    <text x="50" y="238" fill="#b6c9c7" font-size="17">Exploration history for humans and agents.</text>
+    <text x="50" y="311" fill="#8eadaa" font-size="13" letter-spacing="2">APPEND-ONLY  /  ADDRESSABLE  /  MODEL-AGNOSTIC</text>
+    <path d="M687 119v29h85v27 M772 227v29h85v23" fill="none" stroke="#83c6b0" stroke-width="2" stroke-dasharray="4 5"/>
+    <g>
+      <rect x="630" y="47" width="310" height="74" rx="12" fill="#1b333c" stroke="#466368"/>
+      <circle cx="654" cy="72" r="4" fill="#f5b98b"/>
+      <text x="669" y="77" fill="#f5b98b" font-size="12" letter-spacing="1.5">01 / ATTEMPT</text>
+      <text x="650" y="103" fill="#e3eeeb" font-size="16">A failure worth remembering.</text>
+    </g>
+    <g>
+      <rect x="715" y="154" width="310" height="74" rx="12" fill="#1c3d42" stroke="#4d7b75"/>
+      <circle cx="739" cy="179" r="4" fill="#b0eed0"/>
+      <text x="754" y="184" fill="#b0eed0" font-size="12" letter-spacing="1.5">02 / DISCOVERY</text>
+      <text x="735" y="210" fill="#e3eeeb" font-size="16">A correction with its context.</text>
+    </g>
+    <g>
+      <rect x="800" y="261" width="310" height="74" rx="12" fill="#22494a" stroke="#62988a"/>
+      <circle cx="824" cy="286" r="4" fill="#b5c5fb"/>
+      <text x="839" y="291" fill="#b5c5fb" font-size="12" letter-spacing="1.5">03 / EVIDENCE</text>
+      <text x="820" y="317" fill="#e3eeeb" font-size="16">A reference you can revisit.</text>
+    </g>
+  </g>
+</svg>
